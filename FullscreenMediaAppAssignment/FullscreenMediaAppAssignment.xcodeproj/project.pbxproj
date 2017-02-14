@@ -16,7 +16,6 @@
 		EE9DE7631E4D5046008D84BC /* FlickrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7621E4D5046008D84BC /* FlickrViewController.swift */; };
 		EE9DE7661E4D52ED008D84BC /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7651E4D52ED008D84BC /* DataStore.swift */; };
 		EE9DE7691E4D5ECF008D84BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7681E4D5ECF008D84BC /* Extensions.swift */; };
-		EE9DE76B1E4D9115008D84BC /* FMPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE76A1E4D9115008D84BC /* FMPlayer.swift */; };
 		EE9E7A5C1E526547006765CA /* FlickrMediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E7A5B1E526547006765CA /* FlickrMediaCollectionViewCell.swift */; };
 		EE9E7A611E5275BD006765CA /* FlickrMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E7A601E5275BD006765CA /* FlickrMedia.swift */; };
 		EEBB8E401E4BEF680096F66A /* FMInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB8E3F1E4BEF680096F66A /* FMInstagram.swift */; };
@@ -58,7 +57,6 @@
 		EE9DE7621E4D5046008D84BC /* FlickrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrViewController.swift; sourceTree = "<group>"; };
 		EE9DE7651E4D52ED008D84BC /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		EE9DE7681E4D5ECF008D84BC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		EE9DE76A1E4D9115008D84BC /* FMPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMPlayer.swift; sourceTree = "<group>"; };
 		EE9E7A5B1E526547006765CA /* FlickrMediaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrMediaCollectionViewCell.swift; sourceTree = "<group>"; };
 		EE9E7A5F1E52680F006765CA /* FullscreenMediaAppAssignment-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FullscreenMediaAppAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
 		EE9E7A601E5275BD006765CA /* FlickrMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrMedia.swift; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 			children = (
 				EE9DE75F1E4D2680008D84BC /* Tide.swift */,
 				EE9DE7681E4D5ECF008D84BC /* Extensions.swift */,
-				EE9DE76A1E4D9115008D84BC /* FMPlayer.swift */,
 			);
 			name = Utility;
 			sourceTree = "<group>";
@@ -429,7 +426,6 @@
 				EE9DE7551E4D1857008D84BC /* Subclasses.swift in Sources */,
 				EEBB8E401E4BEF680096F66A /* FMInstagram.swift in Sources */,
 				EE9DE7571E4D189F008D84BC /* InstagramViewController.swift in Sources */,
-				EE9DE76B1E4D9115008D84BC /* FMPlayer.swift in Sources */,
 				EE9DE7631E4D5046008D84BC /* FlickrViewController.swift in Sources */,
 				EE9E7A5C1E526547006765CA /* FlickrMediaCollectionViewCell.swift in Sources */,
 				EEE56AA21E4BE993007C435B /* AppDelegate.swift in Sources */,

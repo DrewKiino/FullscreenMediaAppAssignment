@@ -105,19 +105,3 @@ extension FMFlickr {
     if  let vc = UIApplication.shared.keyWindow?.rootViewController { vc.dismiss(animated: true, completion: nil) }
   }
 }
-
-extension String {
-  
-  func urlEncodedString() -> String! {
-    let ignoredCharacters = NSCharacterSet(charactersIn: "% /'\"?=&+<>;:!").inverted
-    return addingPercentEncoding(withAllowedCharacters: ignoredCharacters)
-  }
-  
-  func oauthEncodedString() -> String! {
-    let ignoredCharacters = NSCharacterSet(charactersIn: "%:/?#[]@!$&'()*+,;=").inverted
-    return addingPercentEncoding(withAllowedCharacters: ignoredCharacters)
-  }
-  
-}
-
-
