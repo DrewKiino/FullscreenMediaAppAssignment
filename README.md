@@ -20,3 +20,4 @@ Developer Notes:
 * to login into Flickr, login first then after you are sent back to the app, exit the browser, press "connect" again to authorize. (2 step verification for OAuth)
 * the app also contains paging and refresh functionalities for both feed including video playback
 * I also included a app demo video to showcase all the functionalities of the app
+

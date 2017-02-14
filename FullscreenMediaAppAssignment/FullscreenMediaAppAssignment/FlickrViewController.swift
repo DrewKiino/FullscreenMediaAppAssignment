@@ -64,7 +64,7 @@ public class FlickrViewController: BasicViewConroller {
     collectionView.addSubview(refreshControl)
     
     // setup placeholder label
-    placeholderLabel.text = "Looks like there's nothing on your feed right now! Tap \"Accounts\" to connect."
+    placeholderLabel.text = "Looks like there's nothing on your feed right now! Tap \"Connect\" to connect."
     placeholderLabel.textAlignment = .center
     placeholderLabel.numberOfLines = 0
     placeholderLabel.textColor = .white
