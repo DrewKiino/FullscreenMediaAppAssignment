@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.3.0)
+  - Atlantis (3.0.1)
+  - Neon (0.4.0)
+  - OAuthSwift (1.1.0)
+  - OAuthSwiftAlamofire (0.1.0):
+    - Alamofire
+    - OAuthSwift
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftyJSON (3.1.4)
+
+DEPENDENCIES:
+  - Alamofire
+  - Atlantis
+  - Neon
+  - OAuthSwift
+  - OAuthSwiftAlamofire
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  Atlantis: 7426c23cc45679341c7bebced7cdfb943971cc5c
+  Neon: 7fb5a9327e7e57911843f608e08f4893a74deaf9
+  OAuthSwift: 7ec2c62274f6bdc30b1ba3b799c39a6fdcaea0e5
+  OAuthSwiftAlamofire: 20bb998ac506f82c3bab0625fbc98a9c6fca783f
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+
+PODFILE CHECKSUM: b3ff4552c2a0adfb75e069938a1b5b915ee5bd9b
+
+COCOAPODS: 1.2.0

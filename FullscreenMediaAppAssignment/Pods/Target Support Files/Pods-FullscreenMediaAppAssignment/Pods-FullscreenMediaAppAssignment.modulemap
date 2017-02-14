@@ -1,0 +1,6 @@
+framework module Pods_FullscreenMediaAppAssignment {
+  umbrella header "Pods-FullscreenMediaAppAssignment-umbrella.h"
+
+  export *
+  module * { export * }
+}

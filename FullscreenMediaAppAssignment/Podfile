@@ -1,0 +1,36 @@
+# FoodTruckieLA Podfile
+
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+
+use_frameworks!
+
+#####################################
+
+target 'FullscreenMediaAppAssignment' do
+
+# image processing
+pod 'SDWebImage'
+
+# logging libs
+pod 'Atlantis'
+
+# http libs
+pod 'Alamofire'
+
+# UI libs
+pod 'Neon'
+
+# OAuth
+pod 'OAuthSwift'
+pod 'OAuthSwiftAlamofire'
+
+# JSON Parser
+pod 'SwiftyJSON'
+
+end
+
+#####################################
+# unit testing
+
+#####################################

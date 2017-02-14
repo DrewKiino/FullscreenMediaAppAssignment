@@ -1,0 +1,725 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E1A2AB4B8B1718AB02531D9B /* Pods_FullscreenMediaAppAssignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5128BF3F70E48A660A7279CD /* Pods_FullscreenMediaAppAssignment.framework */; };
+		EE9DE7551E4D1857008D84BC /* Subclasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7541E4D1857008D84BC /* Subclasses.swift */; };
+		EE9DE7571E4D189F008D84BC /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7561E4D189F008D84BC /* InstagramViewController.swift */; };
+		EE9DE75A1E4D1D47008D84BC /* InstagramMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7591E4D1D47008D84BC /* InstagramMedia.swift */; };
+		EE9DE75C1E4D2034008D84BC /* InstagramMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE75B1E4D2034008D84BC /* InstagramMediaCell.swift */; };
+		EE9DE7601E4D2680008D84BC /* Tide.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE75F1E4D2680008D84BC /* Tide.swift */; };
+		EE9DE7631E4D5046008D84BC /* FlickrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7621E4D5046008D84BC /* FlickrViewController.swift */; };
+		EE9DE7661E4D52ED008D84BC /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7651E4D52ED008D84BC /* DataStore.swift */; };
+		EE9DE7691E4D5ECF008D84BC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE7681E4D5ECF008D84BC /* Extensions.swift */; };
+		EE9DE76B1E4D9115008D84BC /* FMPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9DE76A1E4D9115008D84BC /* FMPlayer.swift */; };
+		EE9E7A5C1E526547006765CA /* FlickrMediaCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E7A5B1E526547006765CA /* FlickrMediaCollectionViewCell.swift */; };
+		EE9E7A611E5275BD006765CA /* FlickrMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9E7A601E5275BD006765CA /* FlickrMedia.swift */; };
+		EEBB8E401E4BEF680096F66A /* FMInstagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB8E3F1E4BEF680096F66A /* FMInstagram.swift */; };
+		EEBB8E421E4C03610096F66A /* FMFlickr.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEBB8E411E4C03610096F66A /* FMFlickr.swift */; };
+		EEE56AA21E4BE993007C435B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE56AA11E4BE993007C435B /* AppDelegate.swift */; };
+		EEE56AA71E4BE993007C435B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE56AA51E4BE993007C435B /* Main.storyboard */; };
+		EEE56AA91E4BE993007C435B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE56AA81E4BE993007C435B /* Assets.xcassets */; };
+		EEE56AAC1E4BE993007C435B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE56AAA1E4BE993007C435B /* LaunchScreen.storyboard */; };
+		EEE56AB71E4BE993007C435B /* FullscreenMediaAppAssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE56AB61E4BE993007C435B /* FullscreenMediaAppAssignmentTests.swift */; };
+		EEE56AC21E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE56AC11E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEE56AB31E4BE993007C435B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE56A961E4BE992007C435B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE56A9D1E4BE993007C435B;
+			remoteInfo = FullscreenMediaAppAssignment;
+		};
+		EEE56ABE1E4BE993007C435B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEE56A961E4BE992007C435B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEE56A9D1E4BE993007C435B;
+			remoteInfo = FullscreenMediaAppAssignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5128BF3F70E48A660A7279CD /* Pods_FullscreenMediaAppAssignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FullscreenMediaAppAssignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6513E88B50936DF23772565C /* Pods-FullscreenMediaAppAssignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullscreenMediaAppAssignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FullscreenMediaAppAssignment/Pods-FullscreenMediaAppAssignment.debug.xcconfig"; sourceTree = "<group>"; };
+		EDB6D5702B0539D2FBEFD83F /* Pods-FullscreenMediaAppAssignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FullscreenMediaAppAssignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-FullscreenMediaAppAssignment/Pods-FullscreenMediaAppAssignment.release.xcconfig"; sourceTree = "<group>"; };
+		EE9DE7541E4D1857008D84BC /* Subclasses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subclasses.swift; sourceTree = "<group>"; };
+		EE9DE7561E4D189F008D84BC /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		EE9DE7591E4D1D47008D84BC /* InstagramMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramMedia.swift; sourceTree = "<group>"; };
+		EE9DE75B1E4D2034008D84BC /* InstagramMediaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramMediaCell.swift; sourceTree = "<group>"; };
+		EE9DE75F1E4D2680008D84BC /* Tide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tide.swift; sourceTree = "<group>"; };
+		EE9DE7621E4D5046008D84BC /* FlickrViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrViewController.swift; sourceTree = "<group>"; };
+		EE9DE7651E4D52ED008D84BC /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		EE9DE7681E4D5ECF008D84BC /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EE9DE76A1E4D9115008D84BC /* FMPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMPlayer.swift; sourceTree = "<group>"; };
+		EE9E7A5B1E526547006765CA /* FlickrMediaCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrMediaCollectionViewCell.swift; sourceTree = "<group>"; };
+		EE9E7A5F1E52680F006765CA /* FullscreenMediaAppAssignment-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FullscreenMediaAppAssignment-Bridging-Header.h"; sourceTree = "<group>"; };
+		EE9E7A601E5275BD006765CA /* FlickrMedia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrMedia.swift; sourceTree = "<group>"; };
+		EEBB8E3F1E4BEF680096F66A /* FMInstagram.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMInstagram.swift; sourceTree = "<group>"; };
+		EEBB8E411E4C03610096F66A /* FMFlickr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMFlickr.swift; sourceTree = "<group>"; };
+		EEE56A9E1E4BE993007C435B /* FullscreenMediaAppAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullscreenMediaAppAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE56AA11E4BE993007C435B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EEE56AA61E4BE993007C435B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEE56AA81E4BE993007C435B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEE56AAB1E4BE993007C435B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEE56AAD1E4BE993007C435B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE56AB21E4BE993007C435B /* FullscreenMediaAppAssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenMediaAppAssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE56AB61E4BE993007C435B /* FullscreenMediaAppAssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenMediaAppAssignmentTests.swift; sourceTree = "<group>"; };
+		EEE56AB81E4BE993007C435B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE56ABD1E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullscreenMediaAppAssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEE56AC11E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullscreenMediaAppAssignmentUITests.swift; sourceTree = "<group>"; };
+		EEE56AC31E4BE993007C435B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEE56A9B1E4BE993007C435B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1A2AB4B8B1718AB02531D9B /* Pods_FullscreenMediaAppAssignment.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE56AAF1E4BE993007C435B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE56ABA1E4BE993007C435B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36B25193823427935B4784BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6513E88B50936DF23772565C /* Pods-FullscreenMediaAppAssignment.debug.xcconfig */,
+				EDB6D5702B0539D2FBEFD83F /* Pods-FullscreenMediaAppAssignment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D29C3D92B33AA653481838D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5128BF3F70E48A660A7279CD /* Pods_FullscreenMediaAppAssignment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9DE7501E4D1578008D84BC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EE9DE7641E4D52DF008D84BC /* DataStore */,
+				EE9DE7611E4D503B008D84BC /* FlickrFeed */,
+				EE9DE7581E4D1D2E008D84BC /* Instagram Feed */,
+				EE9DE7541E4D1857008D84BC /* Subclasses.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		EE9DE7581E4D1D2E008D84BC /* Instagram Feed */ = {
+			isa = PBXGroup;
+			children = (
+				EE9DE7591E4D1D47008D84BC /* InstagramMedia.swift */,
+				EE9DE75B1E4D2034008D84BC /* InstagramMediaCell.swift */,
+				EE9DE7561E4D189F008D84BC /* InstagramViewController.swift */,
+			);
+			name = "Instagram Feed";
+			sourceTree = "<group>";
+		};
+		EE9DE7611E4D503B008D84BC /* FlickrFeed */ = {
+			isa = PBXGroup;
+			children = (
+				EE9DE7621E4D5046008D84BC /* FlickrViewController.swift */,
+				EE9E7A5B1E526547006765CA /* FlickrMediaCollectionViewCell.swift */,
+				EE9E7A601E5275BD006765CA /* FlickrMedia.swift */,
+			);
+			name = FlickrFeed;
+			sourceTree = "<group>";
+		};
+		EE9DE7641E4D52DF008D84BC /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				EE9DE7651E4D52ED008D84BC /* DataStore.swift */,
+			);
+			name = DataStore;
+			sourceTree = "<group>";
+		};
+		EE9DE7671E4D5EC1008D84BC /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				EE9DE75F1E4D2680008D84BC /* Tide.swift */,
+				EE9DE7681E4D5ECF008D84BC /* Extensions.swift */,
+				EE9DE76A1E4D9115008D84BC /* FMPlayer.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		EEBB8E3E1E4BEF5C0096F66A /* API */ = {
+			isa = PBXGroup;
+			children = (
+				EE9E7A5F1E52680F006765CA /* FullscreenMediaAppAssignment-Bridging-Header.h */,
+				EEBB8E3F1E4BEF680096F66A /* FMInstagram.swift */,
+				EEBB8E411E4C03610096F66A /* FMFlickr.swift */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		EEE56A951E4BE992007C435B = {
+			isa = PBXGroup;
+			children = (
+				EEE56AA01E4BE993007C435B /* FullscreenMediaAppAssignment */,
+				EEE56AB51E4BE993007C435B /* FullscreenMediaAppAssignmentTests */,
+				EEE56AC01E4BE993007C435B /* FullscreenMediaAppAssignmentUITests */,
+				EEE56A9F1E4BE993007C435B /* Products */,
+				36B25193823427935B4784BA /* Pods */,
+				D29C3D92B33AA653481838D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEE56A9F1E4BE993007C435B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEE56A9E1E4BE993007C435B /* FullscreenMediaAppAssignment.app */,
+				EEE56AB21E4BE993007C435B /* FullscreenMediaAppAssignmentTests.xctest */,
+				EEE56ABD1E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEE56AA01E4BE993007C435B /* FullscreenMediaAppAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				EE9DE7671E4D5EC1008D84BC /* Utility */,
+				EE9DE7501E4D1578008D84BC /* Views */,
+				EEBB8E3E1E4BEF5C0096F66A /* API */,
+				EEE56AA11E4BE993007C435B /* AppDelegate.swift */,
+				EEE56AA51E4BE993007C435B /* Main.storyboard */,
+				EEE56AA81E4BE993007C435B /* Assets.xcassets */,
+				EEE56AAA1E4BE993007C435B /* LaunchScreen.storyboard */,
+				EEE56AAD1E4BE993007C435B /* Info.plist */,
+			);
+			path = FullscreenMediaAppAssignment;
+			sourceTree = "<group>";
+		};
+		EEE56AB51E4BE993007C435B /* FullscreenMediaAppAssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE56AB61E4BE993007C435B /* FullscreenMediaAppAssignmentTests.swift */,
+				EEE56AB81E4BE993007C435B /* Info.plist */,
+			);
+			path = FullscreenMediaAppAssignmentTests;
+			sourceTree = "<group>";
+		};
+		EEE56AC01E4BE993007C435B /* FullscreenMediaAppAssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEE56AC11E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.swift */,
+				EEE56AC31E4BE993007C435B /* Info.plist */,
+			);
+			path = FullscreenMediaAppAssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEE56A9D1E4BE993007C435B /* FullscreenMediaAppAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE56AC61E4BE993007C435B /* Build configuration list for PBXNativeTarget "FullscreenMediaAppAssignment" */;
+			buildPhases = (
+				8BB839941D4DFF9102D06355 /* [CP] Check Pods Manifest.lock */,
+				EEE56A9A1E4BE993007C435B /* Sources */,
+				EEE56A9B1E4BE993007C435B /* Frameworks */,
+				EEE56A9C1E4BE993007C435B /* Resources */,
+				9AE2119C1058B4C1A6C3EE25 /* [CP] Embed Pods Frameworks */,
+				BF8A674F5548CBF0B3CB81D1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FullscreenMediaAppAssignment;
+			productName = FullscreenMediaAppAssignment;
+			productReference = EEE56A9E1E4BE993007C435B /* FullscreenMediaAppAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEE56AB11E4BE993007C435B /* FullscreenMediaAppAssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE56AC91E4BE993007C435B /* Build configuration list for PBXNativeTarget "FullscreenMediaAppAssignmentTests" */;
+			buildPhases = (
+				EEE56AAE1E4BE993007C435B /* Sources */,
+				EEE56AAF1E4BE993007C435B /* Frameworks */,
+				EEE56AB01E4BE993007C435B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE56AB41E4BE993007C435B /* PBXTargetDependency */,
+			);
+			name = FullscreenMediaAppAssignmentTests;
+			productName = FullscreenMediaAppAssignmentTests;
+			productReference = EEE56AB21E4BE993007C435B /* FullscreenMediaAppAssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEE56ABC1E4BE993007C435B /* FullscreenMediaAppAssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEE56ACC1E4BE993007C435B /* Build configuration list for PBXNativeTarget "FullscreenMediaAppAssignmentUITests" */;
+			buildPhases = (
+				EEE56AB91E4BE993007C435B /* Sources */,
+				EEE56ABA1E4BE993007C435B /* Frameworks */,
+				EEE56ABB1E4BE993007C435B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEE56ABF1E4BE993007C435B /* PBXTargetDependency */,
+			);
+			name = FullscreenMediaAppAssignmentUITests;
+			productName = FullscreenMediaAppAssignmentUITests;
+			productReference = EEE56ABD1E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEE56A961E4BE992007C435B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Andrew Aquino";
+				TargetAttributes = {
+					EEE56A9D1E4BE993007C435B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8SJ3UJ3963;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+					EEE56AB11E4BE993007C435B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8SJ3UJ3963;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE56A9D1E4BE993007C435B;
+					};
+					EEE56ABC1E4BE993007C435B = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8SJ3UJ3963;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EEE56A9D1E4BE993007C435B;
+					};
+				};
+			};
+			buildConfigurationList = EEE56A991E4BE992007C435B /* Build configuration list for PBXProject "FullscreenMediaAppAssignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEE56A951E4BE992007C435B;
+			productRefGroup = EEE56A9F1E4BE993007C435B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEE56A9D1E4BE993007C435B /* FullscreenMediaAppAssignment */,
+				EEE56AB11E4BE993007C435B /* FullscreenMediaAppAssignmentTests */,
+				EEE56ABC1E4BE993007C435B /* FullscreenMediaAppAssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEE56A9C1E4BE993007C435B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE56AAC1E4BE993007C435B /* LaunchScreen.storyboard in Resources */,
+				EEE56AA91E4BE993007C435B /* Assets.xcassets in Resources */,
+				EEE56AA71E4BE993007C435B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE56AB01E4BE993007C435B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE56ABB1E4BE993007C435B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BB839941D4DFF9102D06355 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE2119C1058B4C1A6C3EE25 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullscreenMediaAppAssignment/Pods-FullscreenMediaAppAssignment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF8A674F5548CBF0B3CB81D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FullscreenMediaAppAssignment/Pods-FullscreenMediaAppAssignment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEE56A9A1E4BE993007C435B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9DE7661E4D52ED008D84BC /* DataStore.swift in Sources */,
+				EE9DE75C1E4D2034008D84BC /* InstagramMediaCell.swift in Sources */,
+				EE9DE7551E4D1857008D84BC /* Subclasses.swift in Sources */,
+				EEBB8E401E4BEF680096F66A /* FMInstagram.swift in Sources */,
+				EE9DE7571E4D189F008D84BC /* InstagramViewController.swift in Sources */,
+				EE9DE76B1E4D9115008D84BC /* FMPlayer.swift in Sources */,
+				EE9DE7631E4D5046008D84BC /* FlickrViewController.swift in Sources */,
+				EE9E7A5C1E526547006765CA /* FlickrMediaCollectionViewCell.swift in Sources */,
+				EEE56AA21E4BE993007C435B /* AppDelegate.swift in Sources */,
+				EE9DE7691E4D5ECF008D84BC /* Extensions.swift in Sources */,
+				EE9DE75A1E4D1D47008D84BC /* InstagramMedia.swift in Sources */,
+				EE9DE7601E4D2680008D84BC /* Tide.swift in Sources */,
+				EEBB8E421E4C03610096F66A /* FMFlickr.swift in Sources */,
+				EE9E7A611E5275BD006765CA /* FlickrMedia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE56AAE1E4BE993007C435B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE56AB71E4BE993007C435B /* FullscreenMediaAppAssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEE56AB91E4BE993007C435B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE56AC21E4BE993007C435B /* FullscreenMediaAppAssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEE56AB41E4BE993007C435B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE56A9D1E4BE993007C435B /* FullscreenMediaAppAssignment */;
+			targetProxy = EEE56AB31E4BE993007C435B /* PBXContainerItemProxy */;
+		};
+		EEE56ABF1E4BE993007C435B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEE56A9D1E4BE993007C435B /* FullscreenMediaAppAssignment */;
+			targetProxy = EEE56ABE1E4BE993007C435B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEE56AA51E4BE993007C435B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE56AA61E4BE993007C435B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEE56AAA1E4BE993007C435B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEE56AAB1E4BE993007C435B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEE56AC41E4BE993007C435B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EEE56AC51E4BE993007C435B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEE56AC71E4BE993007C435B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6513E88B50936DF23772565C /* Pods-FullscreenMediaAppAssignment.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8SJ3UJ3963;
+				INFOPLIST_FILE = FullscreenMediaAppAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TotemV.FullscreenMediaAppAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FullscreenMediaAppAssignment/FullscreenMediaAppAssignment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EEE56AC81E4BE993007C435B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDB6D5702B0539D2FBEFD83F /* Pods-FullscreenMediaAppAssignment.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8SJ3UJ3963;
+				INFOPLIST_FILE = FullscreenMediaAppAssignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TotemV.FullscreenMediaAppAssignment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "FullscreenMediaAppAssignment/FullscreenMediaAppAssignment-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EEE56ACA1E4BE993007C435B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8SJ3UJ3963;
+				INFOPLIST_FILE = FullscreenMediaAppAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TotemV.FullscreenMediaAppAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullscreenMediaAppAssignment.app/FullscreenMediaAppAssignment";
+			};
+			name = Debug;
+		};
+		EEE56ACB1E4BE993007C435B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 8SJ3UJ3963;
+				INFOPLIST_FILE = FullscreenMediaAppAssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TotemV.FullscreenMediaAppAssignmentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FullscreenMediaAppAssignment.app/FullscreenMediaAppAssignment";
+			};
+			name = Release;
+		};
+		EEE56ACD1E4BE993007C435B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8SJ3UJ3963;
+				INFOPLIST_FILE = FullscreenMediaAppAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TotemV.FullscreenMediaAppAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FullscreenMediaAppAssignment;
+			};
+			name = Debug;
+		};
+		EEE56ACE1E4BE993007C435B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 8SJ3UJ3963;
+				INFOPLIST_FILE = FullscreenMediaAppAssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TotemV.FullscreenMediaAppAssignmentUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FullscreenMediaAppAssignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEE56A991E4BE992007C435B /* Build configuration list for PBXProject "FullscreenMediaAppAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE56AC41E4BE993007C435B /* Debug */,
+				EEE56AC51E4BE993007C435B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE56AC61E4BE993007C435B /* Build configuration list for PBXNativeTarget "FullscreenMediaAppAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE56AC71E4BE993007C435B /* Debug */,
+				EEE56AC81E4BE993007C435B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE56AC91E4BE993007C435B /* Build configuration list for PBXNativeTarget "FullscreenMediaAppAssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE56ACA1E4BE993007C435B /* Debug */,
+				EEE56ACB1E4BE993007C435B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEE56ACC1E4BE993007C435B /* Build configuration list for PBXNativeTarget "FullscreenMediaAppAssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEE56ACD1E4BE993007C435B /* Debug */,
+				EEE56ACE1E4BE993007C435B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEE56A961E4BE992007C435B /* Project object */;
+}
