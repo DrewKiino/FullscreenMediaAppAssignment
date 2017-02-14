@@ -2,7 +2,7 @@
 Fullscreen Media App Assignment
 by: Andrew Aquino
 
-Requirementss:
+Requirements:
 
 "Can you create a small app that pulls images and videos from an Instagram Feed (can be your own test user’s feed) and Flickr popular feed, then display them in a table view or collection view? (Flickr and Instagram feed can be in a separate table/collection view)
 
