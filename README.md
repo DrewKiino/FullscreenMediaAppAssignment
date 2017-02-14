@@ -2,7 +2,7 @@
 Fullscreen Media App Assignment
 by: Andrew Aquino
 
-Requirementss:
+Requirements:
 
 "Can you create a small app that pulls images and videos from an Instagram Feed (can be your own test user’s feed) and Flickr popular feed, then display them in a table view or collection view? (Flickr and Instagram feed can be in a separate table/collection view)
 
@@ -19,4 +19,4 @@ Developer Notes:
 * you have to hit "Connect" then login when the browser comes up to connect accounts
 * to login into Flickr, login first then after you are sent back to the app, exit the browser, press "connect" again to authorize. (2 step verification for OAuth)
 * the app also contains paging and refresh functionalities for both feed including video playback
-
+* I also included a app demo video to showcase all the functionalities of the app
